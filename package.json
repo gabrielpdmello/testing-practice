@@ -1,0 +1,27 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/gabrielpdmello/testing-practice#readme",
+  "bugs": {
+    "url": "https://github.com/gabrielpdmello/testing-practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielpdmello/testing-practice.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest ./scripts --watch *.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "babel-jest": "^30.1.2",
+    "jest": "^30.1.3"
+  }
+}
